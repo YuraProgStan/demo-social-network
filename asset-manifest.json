@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/demo-social-network/static/css/main.eb2c9bcb.chunk.css",
+    "main.js": "/demo-social-network/static/js/main.3d33269e.chunk.js",
+    "main.js.map": "/demo-social-network/static/js/main.3d33269e.chunk.js.map",
+    "runtime-main.js": "/demo-social-network/static/js/runtime-main.ed50111f.js",
+    "runtime-main.js.map": "/demo-social-network/static/js/runtime-main.ed50111f.js.map",
+    "static/js/2.7a7eade3.chunk.js": "/demo-social-network/static/js/2.7a7eade3.chunk.js",
+    "static/js/2.7a7eade3.chunk.js.map": "/demo-social-network/static/js/2.7a7eade3.chunk.js.map",
+    "static/css/3.49405ed7.chunk.css": "/demo-social-network/static/css/3.49405ed7.chunk.css",
+    "static/js/3.7811a8b6.chunk.js": "/demo-social-network/static/js/3.7811a8b6.chunk.js",
+    "static/js/3.7811a8b6.chunk.js.map": "/demo-social-network/static/js/3.7811a8b6.chunk.js.map",
+    "static/css/4.b7767c4d.chunk.css": "/demo-social-network/static/css/4.b7767c4d.chunk.css",
+    "static/js/4.5562b725.chunk.js": "/demo-social-network/static/js/4.5562b725.chunk.js",
+    "static/js/4.5562b725.chunk.js.map": "/demo-social-network/static/js/4.5562b725.chunk.js.map",
+    "static/js/5.fcc00bf5.chunk.js": "/demo-social-network/static/js/5.fcc00bf5.chunk.js",
+    "static/js/5.fcc00bf5.chunk.js.map": "/demo-social-network/static/js/5.fcc00bf5.chunk.js.map",
+    "index.html": "/demo-social-network/index.html",
+    "static/css/3.49405ed7.chunk.css.map": "/demo-social-network/static/css/3.49405ed7.chunk.css.map",
+    "static/css/4.b7767c4d.chunk.css.map": "/demo-social-network/static/css/4.b7767c4d.chunk.css.map",
+    "static/css/main.eb2c9bcb.chunk.css.map": "/demo-social-network/static/css/main.eb2c9bcb.chunk.css.map",
+    "static/js/2.7a7eade3.chunk.js.LICENSE.txt": "/demo-social-network/static/js/2.7a7eade3.chunk.js.LICENSE.txt",
+    "static/media/found_job.de3258f6.png": "/demo-social-network/static/media/found_job.de3258f6.png",
+    "static/media/looking_job.0c8a3f8a.png": "/demo-social-network/static/media/looking_job.0c8a3f8a.png",
+    "static/media/preloader.1885ab4b.svg": "/demo-social-network/static/media/preloader.1885ab4b.svg",
+    "static/media/user.ab7efdc7.png": "/demo-social-network/static/media/user.ab7efdc7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed50111f.js",
+    "static/js/2.7a7eade3.chunk.js",
+    "static/css/main.eb2c9bcb.chunk.css",
+    "static/js/main.3d33269e.chunk.js"
+  ]
+}

@@ -1,0 +1,50 @@
+.nav {
+  grid-area: n;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+
+/* .item.active{
+color: gold;
+} */
+.item a{
+  color:white;
+  text-decoration: none;
+}
+.item a.activeLink{
+  color:gold;
+}
+.friends{
+  display: flex;
+  margin-top:60px;
+  color:white;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.friend{
+
+}
+.friends h3{
+  display: block;
+  width:100%;
+  font-weight: 500;
+  font-size: 25px;
+  padding:0px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.friend .avatar{
+  width:40px;
+height:40px;
+border-radius: 20px;
+background: orange;
+}
+.friend span{
+  font-size: 12px;
+  text-align: center;
+}

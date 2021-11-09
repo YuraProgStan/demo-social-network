@@ -1,12 +1,10 @@
 import React, {FC} from 'react';
-import styles from "./users.module.css";
-import userPhoto from "../../assets/images/user.png";
-import * as axios from "axios";
 //import {toggleFollowingProgress} from "../../redux/users-reducer";
 import Paginator from "../common/Paginator/Paginator";
 import User from "./User";
 import {UserType} from "../../types/types";
-import {usersAPI} from "../../api/users-api";
+import {UsersSearchForm} from "./UsersSearchForm";
+import {FilterType} from "../../redux/users-reducer";
 
 // let Users = (props) => {
 //
@@ -60,6 +58,7 @@ type PropsType = {
     totalUsersCount: number
     pageSize: number
     onPageChanged: (pageNumber:number) => void
+    onFilterChanged: (filter: FilterType) => void
     users: Array<UserType>
     followingInProgress: Array<number>
     unfollow: (userId: number) => void
@@ -69,7 +68,7 @@ type PropsType = {
 let Users: FC<PropsType> = ({currentPage, totalUsersCount, pageSize, onPageChanged, users, ...props}) => {
 
        return <div>
-
+           <UsersSearchForm onFilterChanged = {props.onFilterChanged} />
         <Paginator  currentPage={currentPage} onPageChanged={onPageChanged}
                    totalItemsCount={totalUsersCount} pageSize={pageSize}/>
         <div>
